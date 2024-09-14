@@ -130,3 +130,9 @@ REST_FRAMEWORK = {
 }
 
 ALLOWED_HOSTS = ['localhost','web-production-85f1.up.railway.app']
+
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': None,
+    'USE_SESSION_AUTH': False,
+}
+
