@@ -139,7 +139,13 @@ REST_FRAMEWORK = {
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': None,
     'USE_SESSION_AUTH': False,
+    'DEFAULT_API_URL': 'https://web-production-85f1.up.railway.app',
+    'SCHEMES': ['https'],
 }
+
+SECURE_SSL_REDIRECT = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
     'access-control-allow-headers',
