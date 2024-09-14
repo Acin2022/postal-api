@@ -25,7 +25,7 @@ from rest_framework.routers import DefaultRouter
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Self Justice - ApiDoc",
+      title="Api Postal - ApiDoc",
       default_version='v1',
       description="Documentaci+on de la api Justice",
       terms_of_service="https://nasaacin.org/",
