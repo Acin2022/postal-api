@@ -141,3 +141,11 @@ SWAGGER_SETTINGS = {
     'USE_SESSION_AUTH': False,
 }
 
+CORS_ALLOWED_ORIGINS = [
+    'https://web-production-85f1.up.railway.app',
+    'http://localhost:3000',
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+
