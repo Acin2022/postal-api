@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-)!bl=xg9(=o6+cmv&i%@f^meo&f723&my6fz3up$#&m*v7$hnw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['localhost','web-production-85f1.up.railway.app']
 
 # Application definition
 
@@ -134,7 +133,6 @@ REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
 }
 
-ALLOWED_HOSTS = ['localhost','web-production-85f1.up.railway.app']
 
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': None,
