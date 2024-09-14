@@ -38,4 +38,5 @@ tifffile==2023.9.26
 typing_extensions==4.8.0
 tzdata==2023.3
 uritemplate==4.1.1
+whitenoise==6.7.0
 zipp==3.17.0
