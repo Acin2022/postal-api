@@ -38465,5 +38465,16 @@
     "limite_sur": "ALTO DEL BOQUERON Y RELIEVE MON",
     "limite_este": "MUNICIPIO SAN PEDRO DE LOS MILAGROS",
     "limite_oeste": "MUNICIPIO EBEJICO"
+  },
+  {
+    "id": "3498",
+    "codigo_municipio": "16911001",
+    "nombre_municipio": "BOGOTA, D.C.",
+    "codigo_postal": "110110",
+    "tipo": "URBANO",
+    "limite_norte": "URBANO",
+    "limite_sur": "URBANO",
+    "limite_este": "URBANO",
+    "limite_oeste": "URBANO"
   }
 ]
